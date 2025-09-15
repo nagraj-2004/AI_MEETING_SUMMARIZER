@@ -1,0 +1,16 @@
+# Byte-compiled files
+__pycache__/
+*.pyc
+
+# Virtual Environment
+.venv/
+
+# Environment Variables
+.env
+
+# Outputs
+outputs/
+
+# System files
+.DS_Store
+Thumbs.db

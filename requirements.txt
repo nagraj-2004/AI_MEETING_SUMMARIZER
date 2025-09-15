@@ -1,0 +1,13 @@
+git+https://github.com/openai/whisper.git
+torch>=2.0.0
+torchaudio>=2.0.0
+pydub
+gradio>=3.38.0
+gTTS
+requests
+python-dotenv
+slack_sdk
+google-generativeai
+openai
+librosa
+soundfile
