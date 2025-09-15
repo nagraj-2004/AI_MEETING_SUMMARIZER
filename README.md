@@ -94,35 +94,34 @@ AI_MEETING_SUMMARIZER/
 
 # 🚀 Installation & Setup
 
-## 1️⃣ Clone the repository
+1.**Clone the repository**
 
 ```bash
 git clone https://github.com/your-username/AI_MEETING_SUMMARIZER.git
 cd AI_MEETING_SUMMARIZER
 
-## 2️⃣ Create & activate virtual environment
 
-```bash
-python -m venv .venv
-.venv\Scripts\activate
+2. **Create & activate virtual environment**
+   ```bash
+   python -m venv .venv
+   .venv\Scripts\activate
 
-## 3️⃣ Install dependencies
+3️. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
 
-```bash
-pip install -r requirements.txt
+ 4️. **Configure Environment Variables**
+    **Create a `.env` file in the project root with the following    variables:**
+    ```bash
+    GEMINI_API_KEY=your_gemini_api_key
+    SMTP_SENDER_EMAIL=your_email@gmail.com
+    SMTP_APP_PASSWORD=your_app_password
+    EMAIL_RECIPIENTS=email1@gmail.com,email2@gmail.com
+    DEFAULT_TARGET_LANG=en
 
-## 4️⃣ Configure Environment Variables
-**Create a `.env` file in the project root with the following variables:**
-```bash
-   GEMINI_API_KEY=your_gemini_api_key
-   SMTP_SENDER_EMAIL=your_email@gmail.com
-   SMTP_APP_PASSWORD=your_app_password
-   EMAIL_RECIPIENTS=email1@gmail.com,email2@gmail.com
-   DEFAULT_TARGET_LANG=en
-
-## ▶️ Running the App
-```bash
-python main.py
+▶ **Running the App**
+   ```bash
+   python main.py
 
 
 
