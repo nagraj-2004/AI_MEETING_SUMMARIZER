@@ -58,21 +58,21 @@ It helps teams stay aligned by generating transcripts, summaries, translations, 
 
 ##📂 Project Structure
 
-AI_MEETING_SUMMARIZER/
-├── agents/                     # Core processing logic
-│   ├── __init__.py
-│   ├── highlighter.py          # Extracts summary bullets, actions, etc.
-│   ├── llm_nlp.py              # NLP pipeline for analysis & translation
-│   └── transcriber.py          # Whisper-based audio transcription
-│
-├── integrations/               # Integrations for external services
-│   ├── __init__.py
-│   ├── emailer.py              # SMTP email sender
-│   ├── gemini_api.py           # Calls Gemini API for AI insights
-│   └── slack_notify.py         # Posts messages to Slack channels
-│
-├── outputs/                    # Generated output files (audio, text)
-│   └── (generated files: .mp3, .txt)
+ - AI_MEETING_SUMMARIZER/
+ - ├── agents/                     # Core processing logic
+ -│   ├── __init__.py
+ -│   ├── highlighter.py          # Extracts summary bullets, actions, etc.
+ -│   ├── llm_nlp.py              # NLP pipeline for analysis & translation
+ -│   └── transcriber.py          # Whisper-based audio transcription
+ -│
+ -├── integrations/               # Integrations for external services
+ -│   ├── __init__.py
+ -│   ├── emailer.py              # SMTP email sender
+ -│   ├── gemini_api.py           # Calls Gemini API for AI insights
+ -│   └── slack_notify.py         # Posts messages to Slack channels
+ -│
+ -├── outputs/                    # Generated output files (audio, text)
+ -│   └── (generated files: .mp3, .txt)
 │
 ├── assets/                     # Static assets (e.g., logo)
 │   └── logo.png
